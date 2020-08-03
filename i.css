@@ -1,0 +1,38 @@
+.box{
+    background-color: green;
+    position: relative;
+    width:20px;
+    height:20px;
+    animation-name: god;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes god{
+    0%{
+    background-color: aqua;
+    left: 0px;
+    top:0px;
+    }
+    25%{
+        background-color: red;  
+        left: 20px;
+        top:0px;
+    }
+    50%{
+        background-color: pink;
+       
+        left: 20px;
+        top:20px;
+    }
+    75%{
+        background-color: rgb(255,255,0);
+      
+        left: 0px;
+        top:20px;
+    }
+    100%{
+        
+    }
+}
